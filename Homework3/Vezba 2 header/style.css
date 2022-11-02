@@ -1,0 +1,75 @@
+body {
+    width: 1000px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo a img {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px;
+}
+.new {
+    background-color: rgb(6, 96, 180);
+    color: #fff;
+    border-radius: 20px;
+    width: 45px;
+    font-size: 15px;
+}
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+
+nav ul li a {
+    color: darkgrey;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+nav ul li a img {
+    width: 25px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 96, 180);
+    border-radius: 20px;
+    
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
